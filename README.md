@@ -15,7 +15,7 @@ This scenario validates the core "Add to Cart" business logic while ensuring tes
 **Pre-conditions:** * User has a registered account.
 * Browser is maximized for consistent element visibility.
 
-### **Steps & Verifications:**
+### **E2E Test Specification: Automated Checkout & Price Validation:**
 1. **Secure Login:** Authenticate using pre-defined credentials via the Login page.
 2. **State Reset (Cart Cleanup):** Navigate to the cart to ensure a zero balance, preventing data from previous sessions.
    > **ER-1:** Cart displays "Cart is empty!" and the total is **Rs. 0**.
