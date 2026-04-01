@@ -44,7 +44,7 @@ Most automation scripts fail due to "flaky" UI or persistent data. This project 
 3. How to Run. 
 To execute the test and save results in a dedicated folder:
    ```bash
-   robot -d Results "Tests/robot test.robot"
+   robot -d results tests/e2e_checkout_flow.robot
 
 ## 📊 Execution Results
 

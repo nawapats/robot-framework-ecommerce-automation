@@ -3,6 +3,7 @@ Library    SeleniumLibrary
 
 *** Variables ***
 ${URL}         https://automationexercise.com/login
+${CART_URL}       https://automationexercise.com/view_cart
 ${BROWSER}     Chrome
 ${EMAIL}       testuserproject01@gmail.com
 ${PASSWORD}    Testdemo@123
@@ -23,12 +24,12 @@ Checkout 1 Product
 
 # 4. RESET CART
     # 4.1 Go to cart page
-    Go To    https://automationexercise.com/view_cart
-    
-    # 4.2 Pre-emptively click delete button to clear items from from previous test
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    css:a.cart_quantity_delete[data-product-id="1"]    3s
-    Run Keyword And Ignore Error    Click Element    css:a.cart_quantity_delete[data-product-id="1"]
-    Sleep    2s
+    Go To    ${CART_URL}
+    Wait Until Location Is    ${CART_URL}    10s
+
+    # 4.2 Pre emptively clear
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath://td[@class="cart_delete"]//a[@data-product-id="1"]    3s
+    Run Keyword And Ignore Error    Click Element    xpath://td[@class="cart_delete"]//a[@data-product-id="1"] 
 
     # 4.3. Go back to the home page to start the shopping flow
     Go To    https://automationexercise.com/
