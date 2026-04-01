@@ -34,10 +34,16 @@ Most automation scripts fail due to "flaky" UI or persistent data. This project 
 
 ## 🚀 Getting Started
 
+### Prerequisites
+* **Python 3.8+**
+* **Google Chrome** browser
+* **ChromeDriver** (Ensure the version matches your installed Chrome browser)
+
 ### Installation
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/nawapats/Automation-Exercise-Robot-Selenium](https://github.com/nawapats/Automation-Exercise-Robot-Selenium)
+   git clone [https://github.com/nawapats/robot-framework-ecommerce-automation.git](https://github.com/nawapats/robot-framework-ecommerce-automation.git)
+   cd robot-framework-ecommerce-automation
 2. Install Dependencies
    ```bash
    pip install -r requirements.txt
