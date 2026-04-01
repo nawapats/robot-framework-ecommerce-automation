@@ -1,4 +1,4 @@
-# E-commerce Automation Framework: Robot & Selenium E2E Suite 🛒
+# Robot Framework: E-commerce E2E Suite 🛒
 
 **Role:** Automation QA / SDET  
 **Tech:** Robot Framework, Selenium, Python  
