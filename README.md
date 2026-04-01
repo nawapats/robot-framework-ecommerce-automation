@@ -26,12 +26,6 @@ This scenario validates the core "Add to Cart" business logic while ensuring tes
    > **ER-2:** The item "Blue Top" is successfully listed and the final checkout price is exactly **Rs. 500**.
 
 ## 🌟 Key Engineering Highlights
-Many automation scripts fail due to "flaky" UI or persistent data. This project implements specific solutions for these real-world hurdles:
-* **State Management (Cart Reset):** Implemented a pre-test cleanup keyword to ensure **Test Isolation** and accurate price verification every time.
-* **Viewport Handling:** Used **JavaScript `scrollIntoView({block: "center"})`** to ensure product elements are perfectly centered, preventing "Element Not Interactable" errors.
-* **Dynamic UI Interaction:** Leveraged `Mouse Over` and XPath indexing to handle hidden hover-overlays, mimicking realistic user behavior.
-
-## 🌟 Key Engineering Highlights
 
 This project overcame specific automation hurdles encountered during development—namely **persistent session data**, **layered UI elements**, and **unpredictable ad-overlays**.
 
