@@ -1,9 +1,9 @@
 # Automation-Exercise-Robot-Selenium 🛒
 
-> **Role:** Automation QA / SDET  
-> **Tech:** Robot Framework, Selenium, Python  
-> **Date:** April 2026  
-> **Status:** Completed  
+**Role:** Automation QA / SDET  
+**Tech:** Robot Framework, Selenium, Python  
+**Date:** April 2026  
+**Status:** Completed  
 
 ---
 
