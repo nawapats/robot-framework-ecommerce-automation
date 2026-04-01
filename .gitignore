@@ -1,0 +1,15 @@
+# --- Robot Framework ---
+# Ignore the results folder so reports don't clutter GitHub
+results/
+log.html
+report.html
+output.xml
+selenium-screenshot-*.png
+
+# --- MacOS Junk ---
+.DS_Store
+
+# --- Python ---
+__pycache__/
+*.pyc
+venv/
