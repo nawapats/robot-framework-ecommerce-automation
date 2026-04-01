@@ -26,9 +26,10 @@ Checkout 1 Product
     Go To    https://automationexercise.com/view_cart
     
     # 4.2 Pre-emptively click delete button to clear items from from previous test
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath://a[@data-product-id="1" and @class="cart_quantity_delete"]    3s
-    Run Keyword And Ignore Error    Click Element    xpath://a[@data-product-id="1" and @class="cart_quantity_delete"]
-    
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    css:a.cart_quantity_delete[data-product-id="1"]    3s
+    Run Keyword And Ignore Error    Click Element    css:a.cart_quantity_delete[data-product-id="1"]
+    Sleep    2s
+
     # 4.3. Go back to the home page to start the shopping flow
     Go To    https://automationexercise.com/
     Wait Until Element Is Visible    xpath://p[text()="Blue Top"]
