@@ -30,7 +30,16 @@ Most automation scripts fail due to "flaky" UI or persistent data. This project 
 * **Language:** Python
 * **Drivers:** Chrome WebDriver
 
----
+## 📂 Project Structure
+```text
+├── tests/                # Robot Framework test suites
+│   └── e2e_checkout_flow.robot
+├── assets/               # Demo GIF and project media
+├── .gitignore            # Excludes local results/ and pycache/
+├── README.md             # Project documentation
+├── requirements.txt      # Project dependencies
+└── Robot-Project.code-workspace  # VS Code workspace settings
+```
 
 ## 🚀 Getting Started
 
