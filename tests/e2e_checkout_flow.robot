@@ -40,7 +40,7 @@ Checkout 1 Product
     ${element}=    Get WebElement    xpath://p[text()="Blue Top"]
     Execute Javascript    arguments[0].scrollIntoView({block: "center"});    ARGUMENTS    ${element}
 
-# 6. Hover mouse over desired product and click add to cart
+# 6. Hover mouse over desired product and click Add To Cart
     Mouse Over    xpath://p[text()="Blue Top"]
     Sleep    1s
     Click Element    xpath:(//a[@data-product-id="1"])[2]
