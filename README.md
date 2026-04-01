@@ -32,9 +32,9 @@ Most automation scripts fail due to "flaky" UI or persistent data. This project 
 
 ## 📂 Project Structure
 ```text
+├── assets/               # Demo GIF and project media
 ├── tests/                # Robot Framework test suites
 │   └── e2e_checkout_flow.robot
-├── assets/               # Demo GIF and project media
 ├── .gitignore            # Excludes local results/ and pycache/
 ├── README.md             # Project documentation
 ├── requirements.txt      # Project dependencies
