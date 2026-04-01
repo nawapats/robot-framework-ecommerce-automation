@@ -1,5 +1,12 @@
 # Automation-Exercise-Robot-Selenium 🛒
 
+> **Role:** Automation QA / SDET  
+> **Tech:** Robot Framework, Selenium, Python  
+> **Date:** April 2026  
+> **Status:** Completed  
+
+---
+
 A robust End-to-End (E2E) automation project built with **Robot Framework** and **SeleniumLibrary**. This suite validates the full user journey on [Automation Exercise](https://automationexercise.com/), specifically focusing on login, cart state management, and price verification.
 
 ## 📋 Test Scenario: One-Product Checkout Flow (UAT)
