@@ -78,6 +78,6 @@ To ensure transparency and demonstrate the stability of the script, below is a l
 ### **Validation Summary**
 The following assertions are validated during every run to ensure 100% functional integrity:
 - [x] **Login Success:** Verified by successful redirection to the user homepage.
-- [x] **State Reset:** Confirmed by "Cart is empty!" message and Rs. 0 balance (ER-1).
+- [x] **State Reset:** Confirmed by "Cart is empty!" message (ER-1).
 - [x] **Add to Cart:** Verified by the success modal and dynamic header update.
 - [x] **Price Integrity:** Final total confirmed as exactly **Rs. 500** (ER-2).
