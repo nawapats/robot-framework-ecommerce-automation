@@ -50,7 +50,7 @@ To execute the test and save results in a dedicated folder:
 
 To ensure transparency and demonstrate the stability of the script, below is a live recording of the automation execution.
 
-![Checkout Automation Demo](./assets/execution_demo.gif)
+![E2E Checkout Flow](assets/e2e-checkout-flow.gif)
 
 ### **Validation Summary**
 The following assertions are validated during every run to ensure 100% functional integrity:
